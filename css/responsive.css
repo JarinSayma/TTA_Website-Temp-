@@ -1,0 +1,119 @@
+@media (max-width:992px){
+    header .menu-bar{
+        display: flex;
+    }    
+    header .main-menu{
+        display: none;
+    }
+    header .col-md-9{
+        position: static;
+    }
+    .main-menu .nav{
+        flex-direction: column;
+    }
+    header .main-menu{
+        display: none;
+        position: absolute;
+        top: 80px;
+        background: #1d2126;
+        opacity: .8;
+        width:100%;
+        left: 0px;
+        z-index: 999999;   
+    }
+    .go-down{
+        border-top-width: 80px;
+    }
+    .case-study .col-60,.case-study .col-50{
+        width: 100%;
+        position: static;
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width:768px){
+    .slider .item .overlay .content h1{
+        font-size: 50px;
+    }
+    .slider .item .overlay .content h1,
+    .slider .item .overlay .content p{
+        padding: 20px 0px;
+    }
+    .slider .section-style{
+        display: none;
+    }
+    .go-down{
+        border-top-width: 80px;
+    }
+    .about-us .col-100{
+        width: 100%;
+    }
+    .about-us .contents{
+        flex-direction: column
+    }
+    .about-us .about-left img{
+        margin: 0px 0px 30px 0px;
+        padding: 0;
+    }
+    .contact .col-100{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .contact .col-100:last-child{
+        margin-top: 30px;
+    }
+    .contact .info-content{
+        flex-direction: column;
+    }
+    .services{
+        background-color: #202020;
+        background-size: 0% 100%;
+    }
+    .services h2{
+        margin-right: 0;
+    }
+    .services .content{
+        width: 100%;
+    }
+    .services .catagori .contents .content-icon{
+        right: 0;
+    }
+    .services .catagori .contents .content-text{
+        padding-right: 80px;
+    }
+    .our-pricing .pricing{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width:575px){
+    .slider .item .overlay .content h6{
+        display: none;
+    }
+}
+
+
+@media (max-width:405px){
+    .team .members .single-member:first-child .img{
+        top:175px;
+    }
+    .team .members .single-member:nth-child(2) .img{
+        top:115px;
+    }
+    .team .members .single-member:nth-child(3) .img{
+        top:95px;
+        transform: translateX(-50%);
+    }
+    .team .members .single-member:nth-child(4) .img{
+        top:120px;
+    }
+    .team .members .single-member:last-child .img{
+        top: 35px;
+    }
+
+}
